@@ -15,5 +15,6 @@ variable "my_ip" {
 
 variable "key_name" {
   type        = string
+  default     = "cloudops-2tier-key"
   description = "AWS SSH Key Pair Name"
 }
